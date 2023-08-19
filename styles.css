@@ -1,0 +1,14 @@
+.forms{
+    text-align: center;
+    background-color: burlywood;
+    max-width: 65vw;
+    margin: 10vh auto;
+    padding: 5vh 5vw;
+    border-radius: 2vw;
+}
+#nameStore, #adressStore{
+    max-width: 45%;
+}
+#recoverBtn{
+    margin-top: 2vh;
+}

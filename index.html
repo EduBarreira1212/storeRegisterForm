@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="forms">
+        <form id="formCadastro">
+            <div class="name input">
+                <label for="nameStore">Insira o nome da loja</label>
+                <input class="nameStore" type="text" name="nameStore" id="nameStore">
+            </div>
+            <div class="adress input">
+                <label for="adressStore">Insira o endereço da loja</label>
+                <input class="adressStore" type="text" name="adressStore" id="adressStore">
+            </div>
+            <div class="workDays input">
+                <label>Insira os dias de funcionamento</label>
+                <br>
+                <label for="workDaysMonday">Segunda-feira</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysMonday" value="segunda-feira">
+                <label for="workDaysTuesday">Terça-feira</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysTuesday" value="terça-feira">
+                <label for="workDaysWednesday">Quarta-feira</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysWednesday" value="quarta-feira">
+                <label for="workDaysThursday">Quinta-feira</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysThursday" value="quinta-feira">
+                <label for="workDaysFriday">Sexta-feira</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysFriday" value="sexta-feira">
+                <label for="workDaysSatuday">Sábado</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysSatuday" value="sábado">
+                <label for="workDaysSunday">Domingo</label>
+                <input class="workDays" type="checkbox" name="workDays" id="workDaysSunday" value="domingo">
+            </div>
+            <div class="openTime input">
+                <label for="openTime">Insira o horário de abertuda da loja</label>
+                <input class="openTime" type="time" name="openTime" id="openTime input">
+            </div>
+            <div class="closeTime input">
+                <label for="closeTime">Insira o horário de fechamento da loja</label>
+                <input class="closeTime" type="time" name="closeTime" id="closeTime">
+            </div>
+            <div class="submit input">
+                <input id="submitBtn" type="submit" value="Enviar">
+    
+            </div>
+        </form>
+        <button id="recoverBtn">Recuperar</button>
+    </section>
+    <script src="./events.js"></script>
+</body>
+</html>
